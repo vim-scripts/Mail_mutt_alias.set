@@ -1,0 +1,18 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=46
+
+This script permit to insert an alias from the mutt aliases file while editing an
+e-mail within vim.
+
+Since the version 2.0, we can hit <tab> (in INSERT-mode) within an address 
+field (To:, Cc:, Bcc:, Reply-To) to expand an alias. 
+If several contacts match the to-be-expanded pattern, a menu is proposed in a 
+splitted window in order to choose the addresses. 
+
+Dependencies :
+v2.x+ : a.vim                http://vim.sourceforge.net/scripts/script.php?script_id=31
+          Actually, you should download an old version of a.vim that still exports its functions
+
+v2.2+ : words_tools.vim http://vim.sourceforge.net/scripts/script.php?script_id=143
+
+
+N.B.: The command (:Ca) and the macro (,Ca) have been abandonned since version 2.3.
